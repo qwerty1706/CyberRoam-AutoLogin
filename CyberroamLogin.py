@@ -22,6 +22,7 @@ browser = webdriver.Firefox()
 browser.get('https://172.16.1.1:8090/')
 
 time.sleep(2)
+#sleep time of 2 sec.
 
 #Find the input boxes using xpath of the elements
 userNameBox = browser.find_element_by_xpath('/html/body/form/div[1]/div[2]/div[2]/table/tbody/tr[2]/td/input')
